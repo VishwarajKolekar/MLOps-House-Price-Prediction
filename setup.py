@@ -3,9 +3,9 @@ from typing import List
 
 #Declaring variables for setup functions
 PROJECT_NAME="housing-predictor"
-VERSION="0.0.3"
+VERSION="0.0.4"
 AUTHOR="Vishwaraj Kolekar"
-DESRCIPTION="This is a MLOp's California housing price prediction project"
+DESRCIPTION="This is a MLOp's California Housing Price Prediction Project"
 
 REQUIREMENT_FILE_NAME="requirements.txt"
 
@@ -36,3 +36,4 @@ description=DESRCIPTION,
 packages=find_packages(), 
 install_requires=get_requirements_list()
 )
+
